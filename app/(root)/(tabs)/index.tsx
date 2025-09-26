@@ -11,7 +11,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-    <Text className="text-4xl text-red-500">Welcome to the RealState App   </Text>
+    <Text className="text-4xl text-red-500 font-Rubik  ">Welcome to the RealState App   </Text>
       <Link href="/sign-in" >Sign In</Link>
       <Link href='/(root)/(tabs)/explore'>Explore</Link>
       <Link href='/(root)/(tabs)/profile'>Profile</Link>

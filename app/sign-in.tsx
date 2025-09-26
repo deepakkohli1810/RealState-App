@@ -7,12 +7,12 @@ import { login } from '@/lib/appwrite';
 
 const SignIn = () => {
   const handleLogin =  async () => {
-  //  const result = await login() ;
-  //  if(result){
-  //   console.log('Login Successful') ;
-  //  } else {
-  //   Alert.alert('Login Failed' , 'Please try again later') ;
-  //  }
+   const result = await login() ;
+   if(result){
+    console.log('Login Successful') ;
+   } else {
+    Alert.alert('Login Failed' , 'Please try again later') ;
+   }
   }
   return (
    <SafeAreaView className='bg-white h-full' > 
